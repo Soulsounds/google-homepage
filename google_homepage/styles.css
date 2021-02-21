@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'arial', sans-serif;
+}
+
+.topnav{
+  position: absolute;
+  top: 12px;
+  right: 30px;
+}
+
+.topnav a{
+  color: #222;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+}
+
+.topnav a:hover{
+  text-decoration: underline;
+}
+
+.topnav .icon{
+  border-radius: 50%;
+  top: 3px;
+}
+
+
+#main-display{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 14%;
+}
+
+.google-img{
+  width: 270px;
+  height: 95px;
+  margin: 5px;
+}
+
+input{
+  width: 570px;
+  height: 50px;
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+  font: 16px arial, sans-serif;
+  border-radius: 30px;
+  text-indent: 5px;
+  outline: none;
+}
+
+button{
+  padding: 0 16px;
+  margin: 11px 4px;
+  height: 36px;
+  min-width: 54px;
+  background-color: #ebe6e6;  
+  color: #3c4043;
+  border: 1px solid #f8f9fa;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 22px;
+  background-color: #ebe6e6;
+}
+
+#footer a{
+  color: #696969;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+
